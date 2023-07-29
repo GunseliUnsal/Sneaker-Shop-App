@@ -4,13 +4,14 @@ description: A new Flutter project.
 version: 1.0.0+1
 
 environment:
-  sdk: '>=3.0.1 <4.0.0'
+  sdk: ">=3.0.1 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
 
   cupertino_icons: ^1.0.2
+  google_nav_bar: ^5.0.6
 
 dev_dependencies:
   flutter_test:
@@ -21,11 +22,9 @@ dev_dependencies:
 flutter:
   uses-material-design: true
 
-  assets:     
-         - assets/images/jordan.png
-         - assets/images/kdtrey.png
-         - assets/images/nike.png
-         - assets/images/zion2.png
-         - assets/images/zoomfreak.png
-
- 
+  assets:
+    - assets/images/jordan.png
+    - assets/images/kdtrey.png
+    - assets/images/nike.png
+    - assets/images/zion2.png
+    - assets/images/zoomfreak.png
